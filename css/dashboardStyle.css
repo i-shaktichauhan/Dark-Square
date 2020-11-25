@@ -26,13 +26,14 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap :7rem;
+	grid-gap : 12rem;
+	margin-left: -100px;
     padding: 0 2rem;
 }
 #errorMessage{
 	display: none;
 	justify-content: center;
-	color: red;
+	color: #00a2ed;
 }
 #user_desire{
   display: inline-flex;
@@ -40,7 +41,7 @@ body{
   color: #999;
 }
 span{
-	color: #e50914;
+	color: red;
 }
 #user_desire span{
 	padding: 5px;
@@ -123,7 +124,7 @@ form{
 	bottom: -2px;
 	width: 0%;
 	height: 2px;
-	background-color: #d85c45;
+	background-color: #00a2ed;
 	transition: .4s;
 }
 
@@ -145,7 +146,7 @@ form{
 }
 
 .input-div.focus > .i > i{
-	color: #d85c45;
+	color: #00a2ed;
 }
 
 .input-div > div > input{
@@ -178,7 +179,7 @@ form{
 }
 
 #forgetPassword:hover{
-	color: #d85c45;
+	color: #00a2ed;
 }
 
 .btn{
@@ -188,7 +189,7 @@ form{
 	/* border-radius: 25px; */
 	outline: none;
 	border: none;
-	background-color: #000;
+	background-color: #00a2ed;
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
