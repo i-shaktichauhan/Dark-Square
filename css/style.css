@@ -547,6 +547,7 @@ i:before {
   color: #4b4b4b;
   font-size: 15px;
   line-height: 28px;
+  margin-left: 15px;
 }
 
 .middle_east_country {
@@ -555,6 +556,7 @@ i:before {
 
 .middle_east_country li {
   margin-right: 15px;
+  margin-left: 15px;
 }
 
 /* .serving_locations .canada{
@@ -1310,8 +1312,8 @@ padding: 10px 0px;
 .feature_item h4 {
   color: #000000;
 
-  /* font-weight: bold; */
-  font-size: 24px;
+    
+  font-size: 13px;
   padding-top: 10px;
   width: 100%;
   margin-bottom: 10px;
@@ -1373,7 +1375,7 @@ display: flex;
 margin-bottom: 30px;
 text-align: center;
 padding: 0;
-border: 1px solid #ececec;
+border: 2px solid #ececec;
 height: 90%;
 width: 90%;
 flex-wrap: wrap;
