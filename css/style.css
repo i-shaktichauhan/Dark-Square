@@ -634,7 +634,7 @@ i:before {
 .main_menu_area .navbar .navbar-nav li a {
   color: black;
   letter-spacing: 0.1em;
-  border-width: 2px 0;
+  border-width: 1px 0;
   font-size: 14px;
   line-height: 1.4;
   font-weight: normal;
@@ -762,7 +762,7 @@ i:before {
   position: fixed;
   width: 100%;
   top: -80px;
-  border-bottom:1px solid #000;
+  border-bottom:0px solid #000;
   left: 0;
   right: 0;
   -webkit-transform: translateY(70px);
