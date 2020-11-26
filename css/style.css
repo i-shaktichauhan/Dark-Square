@@ -1679,6 +1679,8 @@ flex-wrap: wrap;
 .a_solution_card_body h1 {
   margin-bottom: 15px;
   font-size: 30px;
+  color: black;
+  font-weight: 600;
   /* font-weight: 600; */
   /* padding: 0 4.5%; */
 }
@@ -3795,9 +3797,10 @@ flex-wrap: wrap;
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 2.5rem;
+  color: black;
 }
 .service_heading{
-  font-size: 20px ! important;
+  font-size: 2.5rem ! important;
   /* color: #4b4b4b; !important; */
 }
 .service_heading span{
