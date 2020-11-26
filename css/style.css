@@ -528,7 +528,7 @@ i:before {
 .serving_locations {
   position: relative;
   display: flex;
-  margin-top: 20px;
+  margin-top: 1px;
   float: left;
 }
 
@@ -2632,7 +2632,7 @@ flex-wrap: wrap;
   padding: 5px 0;
   color: #000000;
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   
   display: block;
@@ -2642,12 +2642,12 @@ flex-wrap: wrap;
   font-weight: 400;
   color: #00a2ed;
   font-size: 20px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 50px;
 
 }
 
 .touch_details h1 {
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 0px;
   /* font-weight: 600; */
 }
