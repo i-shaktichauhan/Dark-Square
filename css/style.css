@@ -635,7 +635,7 @@ i:before {
 
 .main_menu_area .navbar .navbar-nav li a {
   color: black;
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   border-width: 1px 0;
   font-size: 14px;
   line-height: 1.4;
@@ -645,7 +645,8 @@ i:before {
   justify-content: center;
   display: flex;
   text-transform: uppercase;
-  padding: 0px;
+
+  
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
