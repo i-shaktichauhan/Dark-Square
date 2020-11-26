@@ -508,7 +508,7 @@ i:before {
 
 .l_title h1 {
   color: #000000;
-  font-size: 70px;
+  font-size: 2.5rem;
    font-weight: 600;
   margin-bottom: 5px;
   letter-spacing: 2px;
@@ -1469,7 +1469,7 @@ flex-wrap: wrap;
   transition: none 0s ease 0s;
   line-height: 55px;
   /* font-weight: 600; */
-  font-size: 70px;
+  font-size: 2.5rem;
   min-height: 0px;
   min-width: 0px;
   max-height: none;
@@ -3793,6 +3793,8 @@ flex-wrap: wrap;
 }
 .a_solution_card_body h2{
   margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 .service_heading{
   font-size: 20px ! important;
