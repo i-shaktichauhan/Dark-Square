@@ -48,6 +48,11 @@ Table of Content:
   margin-right: 8.33333333%;
 }
 
+
+
+
+
+
 html,
 body {
   overflow-x: hidden;
@@ -76,6 +81,12 @@ body::-webkit-scrollbar {
   position: fixed;
   height: 100vh;
 } */
+
+.contact_form_cover textarea ::-moz-placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .main_header_home {
   background: url(../img/Home_Page_Full_Dark_Square.png) no-repeat scroll center right;
   background-size: 100% 100%;
@@ -2595,7 +2606,7 @@ flex-wrap: wrap;
 .contact_us_form .form-group textarea::-moz-placeholder {
   font-size: 13px;
 
-  font-style: italic;
+ 
   color: #4b4b4b;
 }
 
