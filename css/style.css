@@ -156,7 +156,8 @@ body::-webkit-scrollbar {
   padding: 16px 22px;
   border: none;
   margin-top: 10px;
-  font-size: 14px
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .banner_area .banner_background {
@@ -2096,6 +2097,7 @@ span a:hover {
   border-radius: 0px;
 }
 
+
 .buttons_area .submit_btn:focus {
   border: none;
 }
@@ -2509,8 +2511,9 @@ span a:hover {
   border: none;
   border-bottom: 2px solid #00a2ed4d;
   border-radius: 0px;
-  margin-bottom: 17px;
-  margin-top: 5px;
+  margin-bottom: 1px;
+
+  margin-top: 10px;
   padding: 3px;
   outline: none;
   font-size: 13px;
@@ -3376,7 +3379,7 @@ span a:hover {
 }
 
 .search_widget .input-group .input-group-btn .btn-secondary {
-  background: transparent;
+  background: #00a2ed;
   border-radius: 0px;
 
 

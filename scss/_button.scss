@@ -1,7 +1,7 @@
 /* Button Area css
 ============================================================================================ */
 .more_btn {
-    padding: 0px 46px;
+
     background-image: linear-gradient(to right, #6fbcfe 0%, #998dff 51%, #6fbcfe 100%);
     background-size: 200% auto;
     z-index: 2;
@@ -36,7 +36,7 @@
     //font-size: 15px;
     font-family: $rob;
     line-height: 58px;
-    border: 6px solid rgba(204, 241, 255, .5);
+    border: none;
     border-radius: 33px;
 
     &:hover {
@@ -47,7 +47,8 @@
     &:focus {
         box-shadow: none;
         outline: none;
-        border: 6px solid rgba(204, 241, 255, .5);
+
+        border: 15px solid rgba(204, 241, 255, .5);
     }
 }
 
@@ -62,7 +63,7 @@
     //font-size: 15px;
     font-family: $rob;
     line-height: 55px;
-    border: 6px solid rgba(204, 241, 255, .5);
+    border: 20px solid rgba(204, 241, 255, .5);
     border-radius: 33px;
 
     &:hover {
