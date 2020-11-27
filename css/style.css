@@ -593,7 +593,9 @@ i:before {
   background-color: white;
   height: 10vh;
   padding: 0 12vw;
-  margin-top: 0vh
+  margin-top: 0vh;
+  padding-top: 9px;
+  /* padding has been changed here as the logo was cutting from the top on scrolling */
 }
 
 .main_menu_area .navbar {
@@ -1375,11 +1377,12 @@ span a:hover {
 
 .service_feature {
   overflow: hidden;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 .service_feature .feature_inner {
   padding: 0px 10vw;
+  padding-top: 20px;
 }
 
 .service_feature .feature_inner .feature_item {
