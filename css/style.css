@@ -1378,7 +1378,7 @@ span a:hover {
 
 .service_feature {
   overflow: hidden;
-  margin-top: 0px;
+  margin-top: 60px;
 }
 
 .service_feature .feature_inner {
@@ -2646,7 +2646,7 @@ span a:hover {
   padding: 5px 0;
   color: #000000;
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
 
   display: block;
@@ -2661,7 +2661,7 @@ span a:hover {
 }
 
 .touch_details h1 {
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 0px;
   /* font-weight: 600; */
 }
