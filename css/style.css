@@ -1810,7 +1810,7 @@ span a:hover {
   font-size: 14px;
 
   /* font-weight: 500; */
-  color: #00a2ed;
+  color: black;
 }
 
 .challange_text_inner .c_video a:hover {
@@ -2100,6 +2100,7 @@ span a:hover {
 
 .buttons_area .submit_btn:focus {
   border: none;
+  background-color: black;
 }
 
 .buttons_area .solid_btn {
@@ -2435,7 +2436,8 @@ span a:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: none;
-  border: 6px solid rgba(204, 241, 255, 0.5);
+  background-color: black;
+
 }
 
 .footer_submit_btn {
@@ -2587,10 +2589,12 @@ span a:hover {
   outline: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  font-size: 13px;
-  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
   color: #4b4b4b;
-  resize: none;
+  resize: none
 }
 
 .contact_us_form .form-group textarea.placeholder {
@@ -2646,8 +2650,8 @@ span a:hover {
   padding: 5px 0;
   color: #000000;
   margin-top: 20px;
-  font-size: 25px;
-  font-weight: 300;
+  font-size: 35px;
+  font-weight: 500;
 
   display: block;
 }
