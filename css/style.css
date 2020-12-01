@@ -184,7 +184,7 @@ body::-webkit-scrollbar {
   margin-left: 18px;
 }
 
-PP img{
+PP img {
   width: 100%;
   height: 100px;
 }
@@ -3842,7 +3842,7 @@ span a:hover {
 }
 
 .service_heading span {
-  font-size: 20px ! important;
+  font-size: inherit ! important;
   color: #000000;
   font-weight: 300;
 }
